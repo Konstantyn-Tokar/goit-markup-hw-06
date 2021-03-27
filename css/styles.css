@@ -821,6 +821,7 @@ color: var(--color-aссent);
 }
 
 .backdrop {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -868,6 +869,7 @@ color: var(--color-aссent);
 }
 
 .button-form {
+    margin: 0 auto;
     padding: 10px 56px;
     border: none;
     font-family: var(--main-font);
@@ -944,6 +946,8 @@ color: var(--color-aссent);
 }
 
 .modal-form-check-desk {
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-family: var(--main-font);
     font-size: 14px;
     line-height: 1.71;
@@ -964,27 +968,22 @@ color: var(--color-aссent);
 
 .modal-form-check-desk{
     display: flex;
-    
+    align-items: center;
 }
 
 .modal-form-check-desk::before {
     display: block;
     content: ' ';
     width: 16px;
-    height: 16px;
+    height: 15px;
     border: 2px solid #212121;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
     cursor: pointer;
-
 }
 
 .modal-form-term:checked + .modal-form-check-desk::before {
-    background-image: url(../images/click.svg);
-    background-position: center;
-    background-color: var(--accent-color);
-    background-origin: border-box;
-    background-size: contain;
-    border-color: var(--accent-color);
+    background-image: url(../images/icon-check.svg);
+    border: hidden;
 }
