@@ -961,3 +961,30 @@ color: var(--color-aссent);
     fill: var(--color-text);
     transition: fill 250ms var(--timing);
 }
+
+.modal-form-check-desk{
+    display: flex;
+    
+}
+
+.modal-form-check-desk::before {
+    display: block;
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    cursor: pointer;
+
+}
+
+.modal-form-term:checked + .modal-form-check-desk::before {
+    background-image: url(../images/click.svg);
+    background-position: center;
+    background-color: var(--accent-color);
+    background-origin: border-box;
+    background-size: contain;
+    border-color: var(--accent-color);
+}
