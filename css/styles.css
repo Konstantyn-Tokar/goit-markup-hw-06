@@ -983,6 +983,10 @@ color: var(--color-aссent);
     cursor: pointer;
 }
 
+.modal-form-term:focus + .modal-form-check-desk::before {
+    border: 2px solid var(--accent-color);
+}
+
 .modal-form-term:checked + .modal-form-check-desk::before {
     background-image: url(../images/icon-check.svg);
     border: hidden;
