@@ -922,6 +922,7 @@ color: var(--color-aссent);
     padding-left: 42px;
     transition: border-color 250ms var(--timing);
     cursor: pointer;
+    
 }
 
 .form-footer-input:focus {
