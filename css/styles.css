@@ -905,6 +905,10 @@ color: var(--color-aссent);
     margin-bottom: 10px;
 }
 
+.modal-form-field-comment {
+    margin-bottom: 20px;   
+}
+
 .modal-form-input-wrapper {
     position: relative;
     display: block;
@@ -952,7 +956,6 @@ color: var(--color-aссent);
 }
 
 .modal-form-check-desk {
-    margin-top: 10px;
     margin-bottom: 30px;
     font-family: var(--main-font);
     font-size: 14px;
