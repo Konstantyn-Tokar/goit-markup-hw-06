@@ -988,6 +988,8 @@ color: var(--color-aссent);
 }
 
 .modal-form-term:checked + .modal-form-check-desk::before {
-    background-image: url(../images/icon-check.svg);
-    border: hidden;
+    background-image: url(../images/team/mikhail_ermakov.jpg);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
