@@ -884,7 +884,13 @@ color: var(--color-aссent);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
+.button-form:hover,
+.button-form:focus {
+    background-color:var(--color-pointed-btn);
+}
+
 
 .modal {
     padding: 40px;
