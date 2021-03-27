@@ -984,7 +984,7 @@ color: var(--color-aссent);
 }
 
 .modal-form-term:focus + .modal-form-check-desk::before {
-    border: 2px solid var(--accent-color);
+    outline: 1px solid var(--color-text-dark-fon);
 }
 
 .modal-form-term:checked + .modal-form-check-desk::before {
