@@ -992,7 +992,7 @@ color: var(--color-aссent);
     cursor: pointer;
 }
 
-.modal-form-term:focus-visible + .modal-form-check-desk::before {
+.modal-form-term:focus + .modal-form-check-desk::before {
     outline: 1px solid var(--color-text-dark-fon);
 }
 
