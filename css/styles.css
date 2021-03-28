@@ -846,15 +846,7 @@ color: var(--color-aссent);
     letter-spacing: 0.03em;
 }
 
-.text-in-form {
-    margin-bottom: 4px;
-    display: block;
-    color:var(--color-aссent); 
-    font-family: var(--main-font);
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-}
+
 
 .link-form {
     font-family: var(--main-font);
@@ -900,18 +892,32 @@ color: var(--color-aссent);
 
 .modal-form-field {
     margin-bottom: 10px;
+    display: block;
+    color:var(--color-aссent); 
+    font-family: var(--main-font);
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em; 
 }
 
 .modal-form-field-comment {
     margin-bottom: 20px;   
+    color:var(--color-aссent); 
+    font-family: var(--main-font);
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em; 
 }
 
+/* .text-in-form {
+
+} */
 .modal-form-input-wrapper {
     position: relative;
-    display: block;
 }
 
 .form-footer-input {
+    margin-top: 4px;
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -932,6 +938,7 @@ color: var(--color-aссent);
 
 
 .form-footer-comments {
+    margin-top: 4px;
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
